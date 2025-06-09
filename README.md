@@ -10,7 +10,7 @@ Visit my portfolio: [https://www.dev-trivedi.me](https://dev-trivedi.me)
 
 ## 🖼️ Featured Projects
 
-1. **Talkasaurus**: Telegram AI assistant bot powered by Gemini 2.0
+1. **Talkasauras**: Telegram AI assistant bot powered by Gemini 2.0
 2. **Project Ashwatthama**: AI-powered chat and image generation app
 3. **CodeWhisper**: Real-time collaborative code editor with AI assistance
 4. **LinkWith**: Professional URL management platform

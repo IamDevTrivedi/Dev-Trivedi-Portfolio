@@ -19,8 +19,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -54,13 +54,19 @@ const home = {
   headline: <>Bridging innovation and functionality through code</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Talkasauras</strong></>,
+    title: (
+      <>
+        Recent project: <strong className="ml-4">Talkasauras</strong>
+      </>
+    ),
     href: "/work/talkasaraus-telegram-ai-assistant-bot",
   },
   subline: (
     <>
       Dev Trivedi transforms ideas into elegant, functional web experiences
-      <br /> with a passion for clean code, cutting-edge technologies, and strong problem-solving skills — backed by <strong>1600+ challenges solved</strong> on LeetCode & Codeforces.
+      <br /> with a passion for clean code, cutting-edge technologies, and
+      strong problem-solving skills — backed by{" "}
+      <strong>1600+ challenges solved</strong> on LeetCode & Codeforces.
     </>
   ),
 };
@@ -86,7 +92,12 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Dev is a software developer with understanding in building real-time collaborative platforms and intuitive web applications. His work combines technical innovation with user-focused design to create seamless digital experiences that solve practical problems. With over 1600+ problems solved on LeetCode and Codeforces, he brings strong algorithmic thinking and deep problem-solving skills to every project.
+        Dev is a software developer with understanding in building real-time
+        collaborative platforms and intuitive web applications. His work
+        combines technical innovation with user-focused design to create
+        seamless digital experiences that solve practical problems. With over
+        1600+ problems solved on LeetCode and Codeforces, he brings strong
+        algorithmic thinking and deep problem-solving skills to every project.
       </>
     ),
   },
@@ -100,12 +111,12 @@ const about = {
         role: "Senior Design Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Redesigned the UI/UX for the FLY platform, resulting in a 20%
+            increase in user engagement and 30% faster load times.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Spearheaded the integration of AI tools into design workflows,
+            enabling designers to iterate 50% faster.
           </>,
         ],
         images: [
@@ -124,12 +135,12 @@ const about = {
         role: "Lead Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed a design system that unified the brand across multiple
+            platforms, improving design consistency by 40%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Led a cross-functional team to launch a new product line,
+            contributing to a 15% increase in overall company revenue.
           </>,
         ],
         images: [],
@@ -142,11 +153,21 @@ const about = {
     institutions: [
       {
         name: "Dhirubhai Ambani University",
-        description: <>B.Tech in Information & Communication Technology with<strong> 8.74/10 GPA</strong>.</>,
+        description: (
+          <>
+            B.Tech in Information & Communication Technology with
+            <strong> 8.74/10 GPA</strong>.
+          </>
+        ),
       },
       {
         name: "Prime Science School, Jamnagar",
-        description: <>Completed Class 11/12 with <strong>99.02 percentile</strong> in JEE Mains.</>,
+        description: (
+          <>
+            Completed Class 11/12 with <strong>99.02 percentile</strong> in JEE
+            Mains.
+          </>
+        ),
       },
     ],
   },
@@ -157,7 +178,13 @@ const about = {
     skills: [
       {
         title: "Full Stack Development",
-        description: <>Proficient in <strong>React</strong>, <strong>Node.js</strong>, MongoDB, and <strong>Socket.IO</strong> for building modern web applications and real-time collaborative tools.</>,
+        description: (
+          <>
+            Proficient in <strong>React</strong>, <strong>Node.js</strong>,
+            MongoDB, and <strong>Socket.IO</strong> for building modern web
+            applications and real-time collaborative tools.
+          </>
+        ),
         images: [
           {
             src: "/images/myImages/projects/talkasauras/cover-03.png",
@@ -187,18 +214,26 @@ const about = {
       },
       {
         title: "Problem Solving",
-        description: <>LeetCode profile with <strong>1750 rating(max)</strong> and over <strong>1000 problems</strong> solved, showcasing strong algorithm design and data structure skills.
-          Solved over <strong>1600+ problems</strong> across various platforms.
-          <ul style={{ marginTop: 10 }}>
-            <li>
-              <SmartLink href="https://leetcode.com/u/MysteriousMortal/">LeetCode</SmartLink>
-            </li>
-            <li>
-              <SmartLink href="https://codeforces.com/profile/Dev_Trivedi_03/">Codeforces</SmartLink>
-            </li>
-          </ul>
-
-        </>,
+        description: (
+          <>
+            LeetCode profile with <strong>1750 rating(max)</strong> and over{" "}
+            <strong>1000 problems</strong> solved, showcasing strong algorithm
+            design and data structure skills. Solved over{" "}
+            <strong>1600+ problems</strong> across various platforms.
+            <ul style={{ marginTop: 10 }}>
+              <li>
+                <SmartLink href="https://leetcode.com/u/MysteriousMortal/">
+                  LeetCode
+                </SmartLink>
+              </li>
+              <li>
+                <SmartLink href="https://codeforces.com/profile/Dev_Trivedi_03/">
+                  Codeforces
+                </SmartLink>
+              </li>
+            </ul>
+          </>
+        ),
         images: [
           {
             src: "/images/myImages/profiles/leetcode.png",
@@ -222,7 +257,6 @@ const about = {
       },
     ],
   },
-
 };
 
 const blog = {
@@ -250,17 +284,17 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   images: [
     {
-      src: "/images/myImages/gallery/22.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/myImages/gallery/20.png",
+      src: "/images/myImages/gallery/23.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
       src: "/images/myImages/gallery/21.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/myImages/gallery/22.png",
       alt: "image",
       orientation: "horizontal",
     },
@@ -287,6 +321,11 @@ const gallery = {
     },
     {
       src: "/images/myImages/gallery/19.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/myImages/gallery/20.png",
       alt: "image",
       orientation: "horizontal",
     },
@@ -361,7 +400,6 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-    
   ],
 };
 

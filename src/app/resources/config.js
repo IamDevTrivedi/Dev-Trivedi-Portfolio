@@ -51,20 +51,19 @@ const font = {
 // };
 
 const style = {
-  theme: "dark",           // Dark theme for a modern, techy feel
-  neutral: "slate",        // Slightly bluish-gray — works well with orange
-  brand: "violet",         // Orange as your primary brand color
-  accent: "magenta",          // Aqua contrasts nicely with orange (for CTA or highlights)
+  theme: "dark", // Dark theme for a modern, techy feel
+  neutral: "slate", // Slightly bluish-gray — works well with orange
+  brand: "violet", // Orange as your primary brand color
+  accent: "magenta", // Aqua contrasts nicely with orange (for CTA or highlights)
   // brand: "violet",         // Orange as your primary brand color
   // accent: "indigo",          // Aqua contrasts nicely with orange (for CTA or highlights)
-  solid: "contrast",       // Ensures buttons and solid elements stand out
-  solidStyle: "flat",      // Modern and clean
-  border: "playful",       // Soft corners for friendly UX
-  surface: "translucent",       // Opaque backgrounds for better readability
-  transition: "all",       // Smooth animations on all interactions
-  scaling: "100"           // Slight scaling for a lively, dynamic UI
+  solid: "contrast", // Ensures buttons and solid elements stand out
+  solidStyle: "flat", // Modern and clean
+  border: "playful", // Soft corners for friendly UX
+  surface: "translucent", // Opaque backgrounds for better readability
+  transition: "all", // Smooth animations on all interactions
+  scaling: "100", // Slight scaling for a lively, dynamic UI
 };
-
 
 const effects = {
   mask: {
@@ -110,7 +109,7 @@ const effects = {
 const display = {
   location: false,
   time: false,
-  themeSwitcher: true
+  themeSwitcher: true,
 };
 
 const mailchimp = {
@@ -157,4 +156,13 @@ const mailchimp = {
   },
 };
 
-export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, font };
+export {
+  routes,
+  protectedRoutes,
+  effects,
+  style,
+  display,
+  mailchimp,
+  baseURL,
+  font,
+};

@@ -1,5 +1,6 @@
 import { Logo } from "@/once-ui/components";
 import { SmartLink } from "@/once-ui/components";
+import { baseURL } from "./config";
 
 const person = {
   firstName: "Dev",
@@ -28,6 +29,11 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
+  {
+    name: "Resume",
+    icon: "download",
+    link: `${baseURL}/downloads/resume.pdf`,
+  },
   {
     name: "GitHub",
     icon: "github",

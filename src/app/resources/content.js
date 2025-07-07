@@ -30,11 +30,6 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "Resume",
-    icon: "download",
-    link: `${baseURL}/downloads/resume.pdf`,
-  },
-  {
     name: "GitHub",
     icon: "github",
     link: "https://github.com/IamDevTrivedi",
@@ -48,6 +43,11 @@ const social = [
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
+  },
+  {
+    name: "Resume",
+    icon: "download",
+    link: `${baseURL}/downloads/resume.pdf`,
   },
 ];
 
@@ -162,7 +162,7 @@ const about = {
         description: (
           <>
             B.Tech in Information & Communication Technology with
-            <strong> 8.74/10 GPA</strong>.
+            <strong> 8.72/10 GPA</strong>.
           </>
         ),
       },
@@ -222,8 +222,8 @@ const about = {
         title: "Problem Solving",
         description: (
           <>
-            LeetCode profile with <strong>1750 rating(max)</strong> and over{" "}
-            <strong>1000 problems</strong> solved, showcasing strong algorithm
+            LeetCode profile with <strong>1819 rating(max)</strong> and over{" "}
+            <strong>1150 problems</strong> solved, showcasing strong algorithm
             design and data structure skills. Solved over{" "}
             <strong>1600+ problems</strong> across various platforms.
             <ul style={{ marginTop: 10 }}>
@@ -290,21 +290,20 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   images: [
     {
-      src: "/images/myImages/gallery/23.png",
+      src: "/images/myImages/profiles/leetcode.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/myImages/gallery/21.png",
+      src: "/images/myImages/profiles/cf1.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/myImages/gallery/22.png",
+      src: "/images/myImages/profiles/cf2.png",
       alt: "image",
       orientation: "horizontal",
     },
-
     {
       src: "/images/myImages/gallery/15.png",
       alt: "image",

@@ -237,6 +237,11 @@ const about = {
                   Codeforces
                 </SmartLink>
               </li>
+              <li>
+                <SmartLink href="https://www.codechef.com/users/devtrivedi03">
+                  CodeChef
+                </SmartLink>
+              </li>
             </ul>
           </>
         ),

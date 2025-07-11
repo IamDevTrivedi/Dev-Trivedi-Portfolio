@@ -1,5 +1,4 @@
 import { IconType } from "react-icons";
-import { Download } from "lucide-react";
 
 import {
   HiChevronUp,
@@ -28,6 +27,7 @@ import {
   HiSun,
   HiOutlineDocument,
   HiCodeBracket,
+  HiOutlineDocumentText,
 } from "react-icons/hi2";
 
 import {
@@ -76,7 +76,7 @@ export const iconLibrary: Record<string, IconType> = {
   sun: HiSun,
   document: HiOutlineDocument,
   code: HiCodeBracket,
-  download: Download,
+  download: HiOutlineDocumentText,
 };
 
 export type IconLibrary = typeof iconLibrary;
